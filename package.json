@@ -1,0 +1,8 @@
+{
+  "name": "monorepo-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:deivisondc/monorepo-template.git",
+  "author": "Deivison Cardoso <deivisondc@gmail.com>",
+  "license": "MIT"
+}
