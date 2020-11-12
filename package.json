@@ -2,7 +2,17 @@
   "name": "monorepo-template",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "repository": "git@github.com:deivisondc/monorepo-template.git",
   "author": "Deivison Cardoso <deivisondc@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.5",
+    "@monorepo-template/eslint-config": "*"
+  }
 }
